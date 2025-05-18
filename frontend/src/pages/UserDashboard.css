@@ -1,0 +1,82 @@
+.dashboard {
+  background-color: #121212;
+  min-height: 100vh;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.dashboard h1 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.info-section {
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #333;
+}
+
+.label {
+  color: #DAA520;
+  font-weight: bold;
+}
+
+.value {
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.action-buttons button {
+  background-color: #DAA520;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-buttons button:hover {
+  background-color: #CFA100;
+}
+
+.logout-button {
+  margin-top: 30px;
+}
+
+.logout-button button {
+  background-color: transparent;
+  color: #DAA520;
+  border: 1px solid #DAA520;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.logout-button button:hover {
+  background-color: #DAA520;
+  color: black;
+}

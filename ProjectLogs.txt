@@ -39,3 +39,11 @@
         5.1.4) Withdraw : http://localhost:0702/api/wallet/withdraw
         5.1.5) Transfer : http://localhost:0702/api/wallet/transfer
         5.1.6) History : http://localhost:0702/api/wallet/history
+
+6) Front_End_Testing 
+    "name": "Front_End_Testing",
+    "phone": "2323232323",
+    "email": "test@gmail.com",
+    "username": "Frontend_123",
+    "password": "Frontend_123",
+    "role" : "user"

@@ -1,0 +1,32 @@
+.txn-container {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+}
+
+.txn-container h2 {
+  color: #DAA520;
+  margin-bottom: 30px;
+}
+
+.txn-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.txn-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #DAA520;
+  text-align: left;
+  box-shadow: 0 0 10px #DAA52033;
+}
+
+.gold-text {
+  color: #DAA520;
+  font-weight: bold;
+}
