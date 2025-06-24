@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './RegisterForm.css';
 
 function RegisterForm() {
@@ -9,6 +10,8 @@ function RegisterForm() {
     username: '',
     password: ''
   });
+
+  const navigate = useNavigate();
 
   const handleChange = e => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -29,6 +32,7 @@ function RegisterForm() {
     } catch (err) {
       alert('Failed to connect to backend.');
     }
+    navigate('/login');
   };
 
   return (

@@ -1,2 +1,4 @@
-.env
+.env 
 /node_modules/
+
+# env should have PORT (currently 0702), MONGO_URI(your mongo db uri) and JWT_SECRET (any random string of letters and numbers)
