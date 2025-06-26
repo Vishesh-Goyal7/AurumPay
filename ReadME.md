@@ -86,3 +86,5 @@ PREREQUISITES
         2.5) Second terminal : rs.initiate()
         2.6) Second terminal : rs.status()
         2.7) Let both terminals run
+
+See the guide directory for starting up and loading the web app from scratch
