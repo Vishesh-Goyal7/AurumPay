@@ -19,7 +19,7 @@ function DepositPage() {
     }
 
     try {
-      const res = await fetch('http://localhost:0702/api/wallet/deposit', {
+      const res = await fetch('https://aurumpay.onrender.com/api/wallet/deposit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

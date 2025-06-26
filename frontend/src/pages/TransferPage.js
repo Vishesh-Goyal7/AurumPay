@@ -24,7 +24,7 @@ function TransferPage() {
     }
 
     try {
-      const res = await fetch('http://localhost:0702/api/wallet/transfer', {
+      const res = await fetch('https://aurumpay.onrender.com/api/wallet/transfer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

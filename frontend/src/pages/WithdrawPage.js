@@ -19,7 +19,7 @@ function WithdrawPage() {
     }
 
     try {
-      const res = await fetch('http://localhost:0702/api/wallet/withdraw', {
+      const res = await fetch('https://aurumpay.onrender.com/api/wallet/withdraw', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

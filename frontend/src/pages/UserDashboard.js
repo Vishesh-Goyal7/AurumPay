@@ -14,7 +14,7 @@ function UserDashboard() {
       alert('Session expired. Please login.');
       window.location.href = '/login';
     } else {
-      fetch('http://localhost:0702/api/user/me', {
+      fetch('https://aurumpay.onrender.com/api/user/me', {
         method: 'GET',
         headers: {
           Authorization: `Bearer ${token}`

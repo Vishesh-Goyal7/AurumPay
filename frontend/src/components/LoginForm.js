@@ -13,7 +13,7 @@ function LoginForm() {
     e.preventDefault();
 
     try {
-      const res = await fetch('http://localhost:0702/api/auth/login', {
+      const res = await fetch('https://aurumpay.onrender.com/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
