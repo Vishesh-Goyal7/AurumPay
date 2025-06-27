@@ -28,3 +28,26 @@
 .home-buttons button:hover {
   background-color: #CFA100;
 }
+
+.about-section {
+  background-color: #1a1a1a;
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 12px;
+  color: #ffffff;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px #DAA52055;
+  text-align: left;
+}
+
+.about-section h2 {
+  color: #DAA520;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
