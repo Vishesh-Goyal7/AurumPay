@@ -24,7 +24,7 @@ function TransferPage() {
     }
 
     try {
-      const res = await fetch('https://aurumpay.visheshverse.com/api/wallet/transfer', {
+      const res = await fetch('https://aurumpay.onrender.com/api/wallet/transfer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
