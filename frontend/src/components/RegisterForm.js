@@ -20,7 +20,7 @@ function RegisterForm() {
   const handleSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await fetch('https://aurumpay.visheshverse.com/api/auth/register', {
+      const res = await fetch('https://aurumpay.onrender.com/api/auth/register', {
         
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
