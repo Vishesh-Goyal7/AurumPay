@@ -12,7 +12,7 @@ function TransactionHistoryPage() {
       return;
     }
 
-    fetch('https://aurumpay.onrender.com/api/wallet/history', {
+    fetch('https://aurumpayapi.visheshverse.com/api/wallet/history', {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(res => res.json())
